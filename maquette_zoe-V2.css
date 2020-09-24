@@ -42,6 +42,7 @@ letter-spacing: 0.5px;
 li {
   display: flex;
   flex-direction: row;
+  align-content: stretch;
   background: #d3cece;
   padding-top: 10px;
   padding-bottom: 10px;
