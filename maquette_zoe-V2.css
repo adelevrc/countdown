@@ -100,12 +100,12 @@ p {
   margin-right: 15px;
 }
 
-
+/*Responsive Desktop */
 
 @media screen and (min-width: 1281px) {
 
 header{
-font-size: 30px;
+font-size: 35px;
 }
 
   .container {
@@ -153,15 +153,12 @@ font-size: 20px;
 }
 
 
-
-
-
-/* Responsives Laptop, Desktp*/
+/* Responsives Laptop, Desktop*/
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
 
 header{
-font-size: 30px;
+font-size: 35px;
 }
 
   .container {
@@ -214,7 +211,7 @@ font-size: 20px;
 @media screen and (min-width: 1025px) and (max-width: 1280px) { 
 
 header{
-font-size: 25px;
+font-size: 30px;
 }
 
   .container {
