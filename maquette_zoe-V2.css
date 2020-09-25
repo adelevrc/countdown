@@ -101,112 +101,9 @@ p {
 }
 
 
+/* Responsives Desktp*/
 
-
-
-
-@media (min-width: 1025px) and (max-width: 1280px) { /*Tablets Ipads portrait*/
-
-header{
-font-size: 25px;
-}
-
-  .container {
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-
-
-.bloc {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.bloc > .numbers {
-      width:100%;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-
-     } 
-
-.bloc > .paragraphe{
-  display: flex;
-  justify-content: center;
-  padding: 15px;
-  padding-top: 30px;
-  width: 100%;
-  font-size: 20px;
-}
-
-.numbers > #days, #hours, #minutes, #seconds{
-margin-left: 0px;
-font-size: 45px;
-width: 100px;
-height: 100px;
-
-}
-
-footer{
-height: 70px;
-font-size: 15px;
-}
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-
-header{
-font-size: 100px;
-}
-
-  .container {
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-
-
-.bloc {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.bloc > .numbers {
-      width:100%;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-
-     } 
-
-.bloc > .paragraphe{
-  display: flex;
-  justify-content: center;
-  padding: 15px;
-  padding-top: 30px;
-  width: 100%;
-  font-size: 20px;
-}
-
-.numbers > #days, #hours, #minutes, #seconds{
-margin-left: 0px;
-font-size: 45px;
-width: 100px;
-height: 100px;
-
-}
-
-footer{
-height: 70px;
-font-size: 15px;
-}
-}
-
-
-@media only screen and (min-width : 1281px){ /* Desktp*/
+@media only screen and (min-width : 1281px){ 
 
 header{
 font-size: 30px;
@@ -231,7 +128,7 @@ font-size: 30px;
       flex-direction: row;
       justify-content: center;
       /*padding:15px;*/
-     } 
+} 
 
 .bloc > .paragraphe{
   display: flex;
@@ -254,8 +151,111 @@ footer{
 height: 70px;
 font-size: 20px;
 }
+}
 
 
+/*Responsives Tablets Ipads portrait*/
+
+@media (min-width: 1025px) and (max-width: 1280px) { 
+
+header{
+font-size: 25px;
+}
+
+  .container {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bloc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bloc > .numbers {
+      width:100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+} 
+
+.bloc > .paragraphe{
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  padding-top: 30px;
+  width: 100%;
+  font-size: 20px;
+}
+
+.numbers > #days, #hours, #minutes, #seconds{
+margin-left: 0px;
+font-size: 45px;
+width: 100px;
+height: 100px;
 
 }
+
+footer{
+height: 70px;
+font-size: 15px;
+}
+}
+
+
+/*Responsives Tablets Ipads paysages*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+header{
+font-size: 35px;
+}
+
+  .container {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bloc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bloc > .numbers {
+      width:100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+} 
+
+.bloc > .paragraphe{
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  padding-top: 30px;
+  width: 100%;
+  font-size: 25px;
+}
+
+.numbers > #days, #hours, #minutes, #seconds{
+margin-left: 0px;
+font-size: 45px;
+width: 100px;
+height: 100px;
+
+}
+
+footer{
+height: 70px;
+font-size: 15px;
+
+}  
+}
+
+
+
 
