@@ -33,9 +33,9 @@ letter-spacing: 0.5px;
 
 .container {
   display: flex;
-  flex-direction: column;
   flex-grow: 1;
-  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: center;
   width: 100%;
 }
 
@@ -43,6 +43,7 @@ letter-spacing: 0.5px;
 .bloc {
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
   background: #d3cece;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -50,6 +51,10 @@ letter-spacing: 0.5px;
 }
 
     .bloc > .numbers {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
       width:50%;
      }
 
@@ -68,7 +73,7 @@ letter-spacing: 0.5px;
 
 .bloc > .paragraphe{
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   width: 50%;
   font-size: 20px;
