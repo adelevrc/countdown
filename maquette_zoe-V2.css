@@ -30,8 +30,11 @@ align-items: center;
 background: linear-gradient(#5E0505,#fd0000);
 height: 12vh;
 width: 100%;
+padding-top: 2vh;
+padding-bottom: 2vh;
 margin-bottom: 2vh;
 color: #fff;
+font-size: 2vw;
 font-weight: 700; 
 letter-spacing: 0.5px;
 }
@@ -66,26 +69,26 @@ letter-spacing: 0.5px;
       width:50%;
      }
 
-.numbers > #days, #hours, #minutes, #seconds{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 15vh;
-  height: 15vh;
-  margin-left: 5vh;
-  background: #fff;
-  border-radius: 10%;
-  font-size: 35px;
-  box-shadow : 0px 3px 3px 1px grey;
-}
+          .numbers > #days, #hours, #minutes, #seconds{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 15vh;
+            height: 15vh;
+            margin-left: 5vh;
+            background: #fff;
+            border-radius: 10%;
+            font-size: 6vw;
+            box-shadow : 0px 3px 3px 1px grey;
+          }
 
-.bloc > .paragraphe{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  font-size: 20px;
-}
+    .bloc > .paragraphe{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+      font-size: 20px;
+    }
 
 
 footer{
@@ -94,7 +97,7 @@ footer{
   justify-content: space-between;
   align-items: center; 
   width: 100%;
-  height: 10vh;
+  height: 12vh;
   padding-right: 5vh;
   padding-left: 5vh;
   background: linear-gradient(#fd0000,#5E0505);
@@ -119,7 +122,7 @@ footer > img{
 @media screen and (min-width: 1281px) {
 
 header{
-font-size: 35px;
+/*font-size: 35px;*/
 }
 
   .container {
@@ -154,14 +157,14 @@ font-size: 35px;
 
 .numbers > #days, #hours, #minutes, #seconds{
 margin-left: 0px;
-font-size: 45px;
+/*font-size: 45px;*/
 width: 150px;
 height: 150px;
 
 }
 
 footer{
-height: 15vh;
+/*height: 15vh;*/
 /*font-size: 15px;*/
 padding-right: 5vh;
 }
@@ -181,7 +184,7 @@ footer > img{
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
 
 header{
-font-size: 35px;
+/*font-size: 35px;*/
 }
 
   .container {
@@ -216,14 +219,14 @@ font-size: 35px;
 
 .numbers > #days, #hours, #minutes, #seconds{
 margin-left: 0px;
-font-size: 45px;
+/*font-size: 45px;*/
 width: 150px;
 height: 150px;
 
 }
 
 footer{
-height: 70px;
+/*height: 70px;*/
 /*font-size: 15px;*/
 }
 }
@@ -234,7 +237,7 @@ height: 70px;
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   
 header{
-font-size: 30px;
+/*font-size: 30px;*/
 }
 
   .container {
@@ -267,14 +270,14 @@ font-size: 30px;
 
 .numbers > #days, #hours, #minutes, #seconds{
 margin-left: 0px;
-font-size: 45px;
+/*font-size: 45px;*/
 width: 100px;
 height: 100px;
 
 }
 
 footer{
-height: 70px;
+/*height: 70px;*/
 /*font-size: 15px;*/
 
 }  
