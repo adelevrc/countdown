@@ -48,13 +48,13 @@ letter-spacing: 0.5px;
 
 .bloc {
   display: flex;
-  display:-webkit-flex;
   flex-direction: row;
   justify-content: flex-end;
   background: #d3cece;
   padding-top: 1vh;
   margin: 1vh;
   padding-bottom: 1vh;
+  
 }
 
     .bloc > .numbers {
@@ -69,8 +69,8 @@ letter-spacing: 0.5px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 10vh;
-  height: 10vh;
+  width: 100px;
+  height: 100px;
   margin-left: 41px;
   background: #fff;
   border-radius: 10%;
@@ -270,14 +270,17 @@ font-size: 15px;
 
 }  
 }
+/*
+@media screen and (min-device-width : 375px)  and (max-device-width : 667px) and (orientation : portrait){}
 
-/*@media screen and (min-device-width : 375px)  and (max-device-width : 667px) and (orientation : portrait){}
-
- .bloc > .paragraphe{
+.bloc {
   display: flex;
-  justify-content: center;
-  margin : 5vh;
-  font-size: 25px;
+  flex-direction: row;
+  justify-content: flex-end;
+  background: #d3cece;
+  padding-top: 1vh;
+  margin: 1vh;
+  padding-bottom: 1vh; 
 }
 
 */
