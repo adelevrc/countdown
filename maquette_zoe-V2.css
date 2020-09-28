@@ -6,6 +6,10 @@
 }
 
 html, body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   height: 100%;
   width: 100%;
 }
@@ -34,6 +38,7 @@ letter-spacing: 0.5px;
 
 .container {
   display: flex;
+
   flex-grow: 1;
   flex-direction: column;
   justify-content: center;
@@ -43,11 +48,12 @@ letter-spacing: 0.5px;
 
 .bloc {
   display: flex;
+  display:-webkit-flex;
   flex-direction: row;
   justify-content: flex-end;
   background: #d3cece;
   padding-top: 1%;
-  margin: 5px;
+  margin: 1%;
   padding-bottom: 1%;
   list-style-type: none;
 }
