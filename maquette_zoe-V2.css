@@ -47,6 +47,7 @@ letter-spacing: 0.5px;
   justify-content: flex-end;
   background: #d3cece;
   padding-top: 1%;
+  margin: 5px;
   padding-bottom: 1%;
   list-style-type: none;
 }
@@ -90,7 +91,7 @@ footer{
   align-items: center; 
   background: linear-gradient(#fd0000,#5E0505);
   text-transform: capitalize;
-  font-size: 13px;
+  font-size: 10px;
   color: #fff;
   letter-spacing: 0.5px;
   padding: 2px;
