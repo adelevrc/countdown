@@ -52,10 +52,9 @@ letter-spacing: 0.5px;
   flex-direction: row;
   justify-content: flex-end;
   background: #d3cece;
-  padding-top: 1%;
-  margin: 1%;
-  padding-bottom: 1%;
-  list-style-type: none;
+  padding-top: 1vh;
+  margin: 1vh;
+  padding-bottom: 1vh;
 }
 
     .bloc > .numbers {
@@ -70,8 +69,8 @@ letter-spacing: 0.5px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100px;
-  height: 100px;
+  width: 10vh;
+  height: 10vh;
   margin-left: 41px;
   background: #fff;
   border-radius: 10%;
@@ -272,7 +271,7 @@ font-size: 15px;
 }  
 }
 
-@media screen and (min-device-width : 375px)  and (max-device-width : 667px) and (orientation : portrait){}
+/*@media screen and (min-device-width : 375px)  and (max-device-width : 667px) and (orientation : portrait){}
 
  .bloc > .paragraphe{
   display: flex;
@@ -281,7 +280,7 @@ font-size: 15px;
   font-size: 25px;
 }
 
-
+*/
 
 
 
