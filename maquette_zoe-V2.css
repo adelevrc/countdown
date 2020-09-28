@@ -97,7 +97,7 @@ footer{
   height: 10vh;
   background: linear-gradient(#fd0000,#5E0505);
   text-transform: capitalize;
-  font-size: 10px;
+  font-size: 7px;
   color: #fff;
   letter-spacing: 0.5px;
   /*padding: 2px;*/
@@ -105,8 +105,8 @@ footer{
 }
 
 footer > img{
-  width: 7vh;
-  height: 7vh;
+  width: 5vh;
+  height: 5vh;
   margin-left: 2vh;
 
 }
