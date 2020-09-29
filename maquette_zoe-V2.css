@@ -23,43 +23,43 @@ body {
   text-transform: uppercase;
 }
 
-header{
-display: flex;
-justify-content: center;
-align-items: center;
-background: linear-gradient(#5E0505,#fd0000);
-height: 12vh;
-width: 100%;
-padding-top: 2vh;
-padding-bottom: 2vh;
-margin-bottom: 2vh;
-color: #fff;
-font-size: 2vw;
-font-weight: 700; 
-letter-spacing: 0.5px;
-}
+  header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#5E0505,#fd0000);
+    height: 10vw;
+    width: 100%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin-bottom: 2vh;
+    color: #fff;
+    font-size: 2vw;
+    font-weight: 700; 
+    letter-spacing: 0.5px;
+  }
 
 
-.container {
-  display: flex;
-  flex-grow: 1;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-}
+  .container {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
 
 
-.bloc {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  background: #d3cece;
-  padding: 1vh;
-  margin: 1vh;
- /* padding-bottom: 1vh;*/
-  
-}
+    .bloc {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      background: #d3cece;
+      padding: 1vh;
+      margin: 1vh;
+     /* padding-bottom: 1vh;*/
+      
+    }
 
     .bloc > .numbers {
       display: flex;
@@ -69,17 +69,17 @@ letter-spacing: 0.5px;
       width:50%;
      }
 
-          .numbers > #days, #hours, #minutes, #seconds{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 15vh;
-            height: 15vh;
-            margin-left: 5vh;
-            background: #fff;
-            border-radius: 10%;
-            font-size: 6vw;
-            box-shadow : 0px 3px 3px 1px grey;
+        .numbers > #days, #hours, #minutes, #seconds{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 15vw;
+          height: 15vw;
+          margin-left: 5vh;
+          background: #fff;
+          border-radius: 10%;
+          font-size: 6vw;
+          box-shadow : 0px 3px 3px 1px grey;
           }
 
     .bloc > .paragraphe{
@@ -87,7 +87,7 @@ letter-spacing: 0.5px;
       justify-content: center;
       align-items: center;
       width: 50%;
-      font-size: 20px;
+      font-size: 4vh;
     }
 
 
@@ -97,12 +97,13 @@ footer{
   justify-content: space-between;
   align-items: center; 
   width: 100%;
-  height: 12vh;
+  height: 10vw;
+/*  padding-top: 2vh;*/
   padding-right: 5vh;
   padding-left: 5vh;
   background: linear-gradient(#fd0000,#5E0505);
   text-transform: capitalize;
-  font-size: 1vw;
+  font-size: 1.5vw;
   color: #fff;
   letter-spacing: 0.5px;
   /*padding: 2px;*/
@@ -116,65 +117,55 @@ footer > img{
 }
 
 
-
 /*Responsive Desktop */
 
 @media screen and (min-width: 1281px) {
 
-header{
-/*font-size: 35px;*/
-}
+header, footer {
+  height: 17vh;
+  }
 
-  .container {
+footer {
+  font-size: 15px;
+  }
+
+
+.container {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
 
 
-.bloc {
+.container > .bloc {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.bloc > .numbers {
-      width:100%;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      /*padding:15px;*/
-} 
-
-.bloc > .paragraphe{
-  display: flex;
-  justify-content: center;
-  padding: 15px;
-  padding-top: 30px;
-  width: 100%;
-  font-size: 40px;
-}
+       .bloc > .numbers {
+                width:100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                  /*padding:15px;*/
+                } 
 
 .numbers > #days, #hours, #minutes, #seconds{
-margin-left: 0px;
-/*font-size: 45px;*/
-width: 150px;
-height: 150px;
+  margin-left: 0px;
+  font-size: 10vh;
+  width: 15vw;
+  height: 15vw;
+                            }
 
-}
-
-footer{
-/*height: 15vh;*/
-/*font-size: 15px;*/
-padding-right: 5vh;
-}
-
-footer > img{
-  width: 10vh;
-  height: 10vh;
-  margin-left: 2vh;
-
-}
+            .bloc > .paragraphe{
+              display: flex;
+              justify-content: center;
+              padding-top: 5vh;
+              width: 100%;
+              font-size: 6vh;
+              /*font-size: 40px;*/
+            }
 
 }
 
@@ -183,62 +174,50 @@ footer > img{
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
 
-header{
-/*font-size: 35px;*/
-}
 
-  .container {
+.container {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
 
 
-.bloc {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.bloc > .numbers {
-      width:100%;
+    .bloc {
       display: flex;
-      flex-direction: row;
-      justify-content: center;
-      /*padding:15px;*/
-} 
+      flex-direction: column;
+      justify-content: center;}
 
-.bloc > .paragraphe{
-  display: flex;
-  justify-content: center;
-  padding: 15px;
-  padding-top: 30px;
-  width: 100%;
-  font-size: 35px;
+        .bloc > .numbers {
+              width:100%;
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              /*padding:15px;*/
+            } 
+
+              .numbers > #days, #hours, #minutes, #seconds{
+              margin-left: 0px;
+              font-size: 10vh;
+              width: 20vh;
+              height: 20vh;}
+
+        .bloc > .paragraphe{
+          display: flex;
+          justify-content: center;
+          padding: 15px;
+          padding-top: 30px;
+          width: 100%;
+          /*font-size: 35px;*/
+        }
+
+
+
 }
-
-.numbers > #days, #hours, #minutes, #seconds{
-margin-left: 0px;
-/*font-size: 45px;*/
-width: 150px;
-height: 150px;
-
-}
-
-footer{
-/*height: 70px;*/
-/*font-size: 15px;*/
-}
-}
-
 
 /*Responsives Tablets Ipads paysages*/
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   
-header{
-/*font-size: 30px;*/
-}
 
   .container {
   flex-direction: row;
@@ -265,22 +244,18 @@ header{
   padding: 15px;
   padding-top: 30px;
   width: 100%;
-  font-size: 25px;
+  /*font-size: 25px;*/
 }
 
 .numbers > #days, #hours, #minutes, #seconds{
 margin-left: 0px;
-/*font-size: 45px;*/
-width: 100px;
-height: 100px;
+font-size: 10vh;
+width: 20vh;
+height: 20vh;
 
 }
 
-footer{
-/*height: 70px;*/
-/*font-size: 15px;*/
-
-}  
+ 
 }
 /*
 @media screen and (min-device-width : 375px)  and (max-device-width : 667px) and (orientation : portrait){}
