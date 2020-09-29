@@ -106,12 +106,11 @@ footer{
   letter-spacing: 0.5px;
 }
 
-footer > img{
+#logo{
   width: 6vh;
   height: 6vh;
  
 }
-
 
                                                         /*Responsive Desktop */
 
@@ -126,7 +125,7 @@ header, footer {
 footer {
   font-size: 15px;
   }
-
+s
 .container {
   flex-direction: row;
   justify-content: space-around;
@@ -204,54 +203,12 @@ footer {
         }
 }
 
-                                                      /*Responsives Tablets Ipads portrait*/
-
-/*@media screen and (min-width: 768px) and (max-width: 1024px) {
-  
-
-  .container {
-    background-color: pink;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.bloc {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.bloc > .numbers {
-      width:100%;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-} 
-
-.numbers > #days, #hours, #minutes, #seconds{
-margin-left: 0px;
-font-size: 10vh;
-width: 20vh;
-height: 20vh;
-
-}
-
-.bloc > .paragraphe{
-  display: flex;
-  justify-content: center;
-  padding-top: 30px;
-  margin-left: 0;
-}
-}*/
-
                                                     /*Responsives Tablets Ipads landscape*/
 
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   
   .container {
-    background-color: blue;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
