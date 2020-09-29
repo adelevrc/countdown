@@ -244,7 +244,7 @@ height: 20vh;
  
 }
 
-@media screen and (min-device-width : 321px) and (max-device-width : 731px) and (orientation : landscape){
+@media screen and (min-device-width : 321px) and (max-device-width : 767px) and (orientation : landscape){
 
 .container {
   flex-direction: row;
