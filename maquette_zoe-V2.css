@@ -110,8 +110,8 @@ footer{
 }
 
 footer > img{
-  width: 7vh;
-  height: 7vh;
+  width: 6vh;
+  height: 6vh;
  
 }
 
@@ -209,7 +209,7 @@ footer {
 
 /*Responsives Tablets Ipads paysages*/
 
-@media screen and (min-width: 720px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   
 
   .container {
@@ -249,7 +249,7 @@ height: 20vh;
  
 }
 
-@media screen and (min-device-width : 321px) and (max-device-width : 719px) and (orientation : landscape){
+@media screen and (min-device-width : 321px) and (max-device-width : 767px) and (orientation : landscape){
 
   .container {
   flex-direction: row;
@@ -285,6 +285,13 @@ height: 20vh;
   padding-top: 30px;
   /*width: 100%;*/
 }
+
+footer > img{
+  width: 7vw;
+  height: 7vw;
+ 
+}
+
 }
 
 /*.container { 
