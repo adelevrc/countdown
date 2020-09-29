@@ -78,7 +78,6 @@ body {
           border-radius: 10%;
           font-size: 6vw;
           box-shadow : 0px 3px 3px 1px grey;
-
           }
 
     .bloc > .paragraphe{
@@ -87,7 +86,7 @@ body {
       align-items: center;
       width: 60%;
       font-size: 4vh;
-      margin-left: 2vw;
+      padding-left: 2vw;
     }
 
 
@@ -163,6 +162,7 @@ footer {
               padding-top: 5vh;
               width: 100%;
               font-size: 6vh;
+              margin-left: 0;
             }
 
 }
@@ -199,10 +199,11 @@ footer {
 
         .bloc > .paragraphe{
           display: flex;
-          justify-content: center;
+          justify-content: flex-start;
           padding: 15px;
           padding-top: 30px;
           width: 100%;
+          margin-left: 0;
         }
 
 
@@ -246,12 +247,12 @@ height: 20vh;
   justify-content: center;
   /*padding: 15px;*/
   padding-top: 30px;
-  /*width: 100%;*/
+  margin-left: 0;
 }
  
 }
 
-@media screen and (min-device-width : 321px) and (orientation : landscape){
+@media screen and (min-device-width : 321px) and (max-device-width : 767px) and (orientation : landscape){
 
   .container {
   flex-direction: row;
