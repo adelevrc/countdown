@@ -34,9 +34,9 @@ body {
     padding-bottom: 2vh;
     margin-bottom: 2vh;
     color: #fff;
-    font-size: 2vw;
-    font-weight: 700; 
-    letter-spacing: 1px;
+    font-size: 4vw;
+    font-weight: 500; 
+    letter-spacing: 0.5px;
   }
 
 
@@ -57,7 +57,6 @@ body {
       background: #d3cece;
       padding: 1vh;
       margin: 1vh;
-     /* padding-bottom: 1vh;*/
       
     }
 
@@ -66,7 +65,7 @@ body {
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      width:50%;
+      width:40%;
      }
 
         .numbers > #days, #hours, #minutes, #seconds{
@@ -75,19 +74,20 @@ body {
           align-items: center;
           width: 20vw;
           height: 20vw;
-          margin-left: 5vh;
           background: #fff;
           border-radius: 10%;
           font-size: 6vw;
           box-shadow : 0px 3px 3px 1px grey;
+
           }
 
     .bloc > .paragraphe{
       display: flex;
-      justify-content: center;
+      justify-content: flex-start;
       align-items: center;
-      width: 50%;
+      width: 60%;
       font-size: 4vh;
+      margin-left: 2vw;
     }
 
 
