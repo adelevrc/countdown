@@ -205,14 +205,11 @@ footer {
           width: 100%;
           margin-left: 0;
         }
-
-
-
 }
 
 /*Responsives Tablets Ipads paysages*/
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 720px) and (max-width: 1024px) {
   
 
   .container {
@@ -252,7 +249,7 @@ height: 20vh;
  
 }
 
-@media screen and (min-device-width : 321px) and (max-device-width : 767px) and (orientation : landscape){
+@media screen and (min-device-width : 321px) and (max-device-width : 719px) and (orientation : landscape){
 
   .container {
   flex-direction: row;
