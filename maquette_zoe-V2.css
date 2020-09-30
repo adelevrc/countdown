@@ -125,8 +125,8 @@ header, footer {
 footer {
   font-size: 15px;
   }
-s
-.container {
+
+/*.container {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
@@ -144,7 +144,7 @@ s
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
-                } 
+                } */
 
 .numbers > #days, #hours, #minutes, #seconds{
   margin-left: 0px;
@@ -169,7 +169,7 @@ s
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
 
 
-.container {
+/*.container {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
@@ -185,30 +185,30 @@ s
               display: flex;
               flex-direction: row;
               justify-content: center;
-            } 
+            } */
 
       .numbers > #days, #hours, #minutes, #seconds{
         margin-left: 0px;
         font-size: 10vh;
-              width: 20vh;
-              height: 20vh;}
+        width: 15vh;
+        height: 15vh;}
 
         .bloc > .paragraphe{
           display: flex;
-          justify-content: flex-start;
+          justify-content: center;
           padding: 15px;
-          padding-top: 30px;
+          padding-top: 5vh;
           width: 100%;
           margin-left: 0;
         }
 }
 
                                                     /*Responsives Tablets Ipads landscape*/
-
+/*
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   
-  .container {
+ .container {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
@@ -230,8 +230,8 @@ s
 .numbers > #days, #hours, #minutes, #seconds{
 margin-left: 0px;
 font-size: 10vh;
-width: 20vh;
-height: 20vh;
+width: 15vh;
+height: 15vh;
 
 }
 
@@ -241,7 +241,7 @@ height: 20vh;
   padding-top: 30px;
   margin-left: 0;
 }
-}
+}*/
 
                                                       /*Responsive Mobile landscape*/
 
@@ -281,8 +281,3 @@ height: 20vh;
 }
 
 }
-
-
-
-
-
